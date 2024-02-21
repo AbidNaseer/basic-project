@@ -1,0 +1,17 @@
+
+
+#login{
+    padding: 10px 25px;
+    color: black;
+    background-color: white;
+    border-radius: 10px ;
+    border: none;
+}
+#start{
+    padding: 10px 25px;
+    color: white;
+    background-color: #3CACF5;
+    border-radius: 10px ;
+    border: none;
+}
+
