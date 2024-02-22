@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #3CACF5;
+    background-color: rgb(1, 144, 232);
     
 }
 #header{
@@ -39,10 +39,11 @@ ul li i{
 #btn1{
     justify-content: end;
     margin-top: 25px;
+    margin-right: 2rem;
 }
 #login{
     padding: 10px 25px;
-    border: 2px solid #3CACF5;
+    border: 1px solid white;
     color: black;
     background-color: white;
     border-radius: 10px ;
@@ -50,17 +51,55 @@ ul li i{
 }
 #start{
     padding: 10px 15px;
-    border: 2px solid white;
+    border: 1px solid rgb(60, 172, 245);
     color: white;
-    background-color: #3CACF5;
+    background-color: rgb(60, 172, 245);
     border-radius: 10px ;
     
 }
 #content-container{
     display: flex;
     color: white;
+    margin-top: 5rem;
 }
 #right{
-    justify-content: space-around;
-    align-items: center;
+margin-left: 2rem;
+margin-top: 5rem;
 }
+#right h3{
+    font-size: 2rem;
+}
+#right p{
+    font-size: large;
+}
+#right button{
+    margin-top: 1rem;
+}
+#leftbtn{
+    background-color: rgb(229, 81, 119);
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #EF517A;
+    shape-outside: 1px white;
+}
+#rightbtn{
+    background-color: white;
+    color: rgb(60, 172, 245);
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(60, 172, 245);
+    shape-outside: 1px white;
+    margin-left: 1rem;
+}
+#left{
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15.5rem;
+    box-shadow: 5px lightsalmon;
+}
+#left img{
+    width: 35rem;
+    height: 100%;
+}
+
